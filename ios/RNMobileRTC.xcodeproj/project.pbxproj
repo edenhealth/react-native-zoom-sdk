@@ -8,6 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		2770A65F20120EA6006EF37E /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2770A65D20120E88006EF37E /* VideoToolbox.framework */; };
+		3E91308822DD7824004BB868 /* SDKScheduleMeetingPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91304C22DD7823004BB868 /* SDKScheduleMeetingPresenter.m */; };
+		3E91308922DD7824004BB868 /* SDKAuthPresenter+PremeetingDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91304D22DD7823004BB868 /* SDKAuthPresenter+PremeetingDelegate.m */; };
+		3E91308A22DD7824004BB868 /* SDKMeetingSettingPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91305122DD7823004BB868 /* SDKMeetingSettingPresenter.m */; };
+		3E91308B22DD7824004BB868 /* SDKStartJoinMeetingPresenter+VideoServiceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91305522DD7823004BB868 /* SDKStartJoinMeetingPresenter+VideoServiceDelegate.m */; };
+		3E91308C22DD7824004BB868 /* SDKStartJoinMeetingPresenter+WebinarServiceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91305822DD7823004BB868 /* SDKStartJoinMeetingPresenter+WebinarServiceDelegate.m */; };
+		3E91308D22DD7824004BB868 /* SDKStartJoinMeetingPresenter+MeetingServiceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91305A22DD7823004BB868 /* SDKStartJoinMeetingPresenter+MeetingServiceDelegate.m */; };
+		3E91308E22DD7824004BB868 /* SDKStartJoinMeetingPresenter+AudioServiceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91305B22DD7823004BB868 /* SDKStartJoinMeetingPresenter+AudioServiceDelegate.m */; };
+		3E91308F22DD7824004BB868 /* SDKStartJoinMeetingPresenter+CustomizedUIMeetingDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91305D22DD7823004BB868 /* SDKStartJoinMeetingPresenter+CustomizedUIMeetingDelegate.m */; };
+		3E91309022DD7824004BB868 /* SDKStartJoinMeetingPresenter+ShareServiceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91305E22DD7823004BB868 /* SDKStartJoinMeetingPresenter+ShareServiceDelegate.m */; };
+		3E91309122DD7824004BB868 /* SDKStartJoinMeetingPresenter+UserServiceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91306122DD7823004BB868 /* SDKStartJoinMeetingPresenter+UserServiceDelegate.m */; };
+		3E91309222DD7824004BB868 /* SDKVideoPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91306522DD7823004BB868 /* SDKVideoPresenter.m */; };
+		3E91309322DD7824004BB868 /* SDKActionPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91306922DD7823004BB868 /* SDKActionPresenter.m */; };
+		3E91309422DD7824004BB868 /* SDKSharePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91306C22DD7823004BB868 /* SDKSharePresenter.m */; };
+		3E91309522DD7824004BB868 /* SDKAudioPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91306F22DD7823004BB868 /* SDKAudioPresenter.m */; };
+		3E91309622DD7824004BB868 /* SDKStartJoinMeetingPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91307122DD7823004BB868 /* SDKStartJoinMeetingPresenter.m */; };
+		3E91309722DD7824004BB868 /* SDKStartJoinMeetingPresenter+RestApiWithoutLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91307422DD7823004BB868 /* SDKStartJoinMeetingPresenter+RestApiWithoutLoginUser.m */; };
+		3E91309822DD7824004BB868 /* SDKStartJoinMeetingPresenter+JoinMeetingOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91307722DD7823004BB868 /* SDKStartJoinMeetingPresenter+JoinMeetingOnly.m */; };
+		3E91309922DD7824004BB868 /* SDKStartJoinMeetingPresenter+LoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91307B22DD7823004BB868 /* SDKStartJoinMeetingPresenter+LoginUser.m */; };
+		3E91309A22DD7824004BB868 /* SDKAuthPresenter+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91307F22DD7823004BB868 /* SDKAuthPresenter+Login.m */; };
+		3E91309B22DD7824004BB868 /* SDKAuthPresenter+AuthDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91308222DD7823004BB868 /* SDKAuthPresenter+AuthDelegate.m */; };
+		3E91309C22DD7824004BB868 /* SDKAuthPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91308322DD7823004BB868 /* SDKAuthPresenter.m */; };
+		3E91309D22DD7824004BB868 /* SDKInitPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91308622DD7823004BB868 /* SDKInitPresenter.m */; };
+		3E9130F022DD7866004BB868 /* HorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130D122DD7866004BB868 /* HorizontalTableView.m */; };
+		3E9130F122DD7866004BB868 /* CustomMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130D322DD7866004BB868 /* CustomMeetingViewController.m */; };
+		3E9130F222DD7866004BB868 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130D922DD7866004BB868 /* GalleryViewController.m */; };
+		3E9130F322DD7866004BB868 /* ThumbWallViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130DC22DD7866004BB868 /* ThumbWallViewCell.m */; };
+		3E9130F422DD7866004BB868 /* CustomRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130DD22DD7866004BB868 /* CustomRemoteControl.m */; };
+		3E9130F522DD7866004BB868 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130E022DD7866004BB868 /* VideoViewController.m */; };
+		3E9130F622DD7866004BB868 /* CustomMeetingViewController+MeetingDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130E122DD7866004BB868 /* CustomMeetingViewController+MeetingDelegate.m */; };
+		3E9130F722DD7866004BB868 /* BottomPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130E222DD7866004BB868 /* BottomPanelView.m */; };
+		3E9130F822DD7866004BB868 /* LocalShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130E322DD7866004BB868 /* LocalShareViewController.m */; };
+		3E9130F922DD7866004BB868 /* ThumbTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130E422DD7866004BB868 /* ThumbTableViewCell.m */; };
+		3E9130FA22DD7866004BB868 /* ShrinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130E622DD7866004BB868 /* ShrinkViewController.m */; };
+		3E9130FB22DD7866004BB868 /* WallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130E822DD7866004BB868 /* WallViewController.m */; };
+		3E9130FC22DD7866004BB868 /* TopPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130EA22DD7866004BB868 /* TopPanelView.m */; };
+		3E9130FD22DD7866004BB868 /* AnnoFloatBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130EC22DD7866004BB868 /* AnnoFloatBarView.m */; };
+		3E9130FE22DD7866004BB868 /* ThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130EE22DD7866004BB868 /* ThumbView.m */; };
+		3E9130FF22DD7866004BB868 /* RemoteShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9130EF22DD7866004BB868 /* RemoteShareViewController.m */; };
+		3E91313D22DD8345004BB868 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91313C22DD8345004BB868 /* MainViewController.m */; };
+		3E91314122DD8454004BB868 /* MainViewController+MeetingDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91314022DD8454004BB868 /* MainViewController+MeetingDelegate.m */; };
+		3E91314422DD8769004BB868 /* AppDelegateRTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91314322DD8769004BB868 /* AppDelegateRTC.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNMobileRTC.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMobileRTC.m */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +67,89 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNMobileRTC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMobileRTC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2770A65D20120E88006EF37E /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		3E91304C22DD7823004BB868 /* SDKScheduleMeetingPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKScheduleMeetingPresenter.m; sourceTree = "<group>"; };
+		3E91304D22DD7823004BB868 /* SDKAuthPresenter+PremeetingDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKAuthPresenter+PremeetingDelegate.m"; sourceTree = "<group>"; };
+		3E91304E22DD7823004BB868 /* SDKScheduleMeetingPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKScheduleMeetingPresenter.h; sourceTree = "<group>"; };
+		3E91304F22DD7823004BB868 /* SDKAuthPresenter+PremeetingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKAuthPresenter+PremeetingDelegate.h"; sourceTree = "<group>"; };
+		3E91305122DD7823004BB868 /* SDKMeetingSettingPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKMeetingSettingPresenter.m; sourceTree = "<group>"; };
+		3E91305222DD7823004BB868 /* SDKMeetingSettingPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKMeetingSettingPresenter.h; sourceTree = "<group>"; };
+		3E91305522DD7823004BB868 /* SDKStartJoinMeetingPresenter+VideoServiceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKStartJoinMeetingPresenter+VideoServiceDelegate.m"; sourceTree = "<group>"; };
+		3E91305622DD7823004BB868 /* SDKStartJoinMeetingPresenter+ShareServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKStartJoinMeetingPresenter+ShareServiceDelegate.h"; sourceTree = "<group>"; };
+		3E91305722DD7823004BB868 /* SDKStartJoinMeetingPresenter+CustomizedUIMeetingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKStartJoinMeetingPresenter+CustomizedUIMeetingDelegate.h"; sourceTree = "<group>"; };
+		3E91305822DD7823004BB868 /* SDKStartJoinMeetingPresenter+WebinarServiceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKStartJoinMeetingPresenter+WebinarServiceDelegate.m"; sourceTree = "<group>"; };
+		3E91305922DD7823004BB868 /* SDKStartJoinMeetingPresenter+UserServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKStartJoinMeetingPresenter+UserServiceDelegate.h"; sourceTree = "<group>"; };
+		3E91305A22DD7823004BB868 /* SDKStartJoinMeetingPresenter+MeetingServiceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKStartJoinMeetingPresenter+MeetingServiceDelegate.m"; sourceTree = "<group>"; };
+		3E91305B22DD7823004BB868 /* SDKStartJoinMeetingPresenter+AudioServiceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKStartJoinMeetingPresenter+AudioServiceDelegate.m"; sourceTree = "<group>"; };
+		3E91305C22DD7823004BB868 /* SDKStartJoinMeetingPresenter+VideoServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKStartJoinMeetingPresenter+VideoServiceDelegate.h"; sourceTree = "<group>"; };
+		3E91305D22DD7823004BB868 /* SDKStartJoinMeetingPresenter+CustomizedUIMeetingDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKStartJoinMeetingPresenter+CustomizedUIMeetingDelegate.m"; sourceTree = "<group>"; };
+		3E91305E22DD7823004BB868 /* SDKStartJoinMeetingPresenter+ShareServiceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKStartJoinMeetingPresenter+ShareServiceDelegate.m"; sourceTree = "<group>"; };
+		3E91305F22DD7823004BB868 /* SDKStartJoinMeetingPresenter+AudioServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKStartJoinMeetingPresenter+AudioServiceDelegate.h"; sourceTree = "<group>"; };
+		3E91306022DD7823004BB868 /* SDKStartJoinMeetingPresenter+MeetingServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKStartJoinMeetingPresenter+MeetingServiceDelegate.h"; sourceTree = "<group>"; };
+		3E91306122DD7823004BB868 /* SDKStartJoinMeetingPresenter+UserServiceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKStartJoinMeetingPresenter+UserServiceDelegate.m"; sourceTree = "<group>"; };
+		3E91306222DD7823004BB868 /* SDKStartJoinMeetingPresenter+WebinarServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKStartJoinMeetingPresenter+WebinarServiceDelegate.h"; sourceTree = "<group>"; };
+		3E91306522DD7823004BB868 /* SDKVideoPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKVideoPresenter.m; sourceTree = "<group>"; };
+		3E91306622DD7823004BB868 /* SDKVideoPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKVideoPresenter.h; sourceTree = "<group>"; };
+		3E91306822DD7823004BB868 /* SDKActionPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKActionPresenter.h; sourceTree = "<group>"; };
+		3E91306922DD7823004BB868 /* SDKActionPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKActionPresenter.m; sourceTree = "<group>"; };
+		3E91306B22DD7823004BB868 /* SDKSharePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKSharePresenter.h; sourceTree = "<group>"; };
+		3E91306C22DD7823004BB868 /* SDKSharePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKSharePresenter.m; sourceTree = "<group>"; };
+		3E91306E22DD7823004BB868 /* SDKAudioPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKAudioPresenter.h; sourceTree = "<group>"; };
+		3E91306F22DD7823004BB868 /* SDKAudioPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKAudioPresenter.m; sourceTree = "<group>"; };
+		3E91307122DD7823004BB868 /* SDKStartJoinMeetingPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKStartJoinMeetingPresenter.m; sourceTree = "<group>"; };
+		3E91307322DD7823004BB868 /* SDKStartJoinMeetingPresenter+RestApiWithoutLoginUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKStartJoinMeetingPresenter+RestApiWithoutLoginUser.h"; sourceTree = "<group>"; };
+		3E91307422DD7823004BB868 /* SDKStartJoinMeetingPresenter+RestApiWithoutLoginUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKStartJoinMeetingPresenter+RestApiWithoutLoginUser.m"; sourceTree = "<group>"; };
+		3E91307622DD7823004BB868 /* SDKStartJoinMeetingPresenter+JoinMeetingOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKStartJoinMeetingPresenter+JoinMeetingOnly.h"; sourceTree = "<group>"; };
+		3E91307722DD7823004BB868 /* SDKStartJoinMeetingPresenter+JoinMeetingOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKStartJoinMeetingPresenter+JoinMeetingOnly.m"; sourceTree = "<group>"; };
+		3E91307822DD7823004BB868 /* SDKStartJoinMeetingPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKStartJoinMeetingPresenter.h; sourceTree = "<group>"; };
+		3E91307A22DD7823004BB868 /* SDKStartJoinMeetingPresenter+LoginUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKStartJoinMeetingPresenter+LoginUser.h"; sourceTree = "<group>"; };
+		3E91307B22DD7823004BB868 /* SDKStartJoinMeetingPresenter+LoginUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKStartJoinMeetingPresenter+LoginUser.m"; sourceTree = "<group>"; };
+		3E91307E22DD7823004BB868 /* SDKAuthPresenter+Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKAuthPresenter+Login.h"; sourceTree = "<group>"; };
+		3E91307F22DD7823004BB868 /* SDKAuthPresenter+Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKAuthPresenter+Login.m"; sourceTree = "<group>"; };
+		3E91308122DD7823004BB868 /* SDKAuthPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKAuthPresenter.h; sourceTree = "<group>"; };
+		3E91308222DD7823004BB868 /* SDKAuthPresenter+AuthDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDKAuthPresenter+AuthDelegate.m"; sourceTree = "<group>"; };
+		3E91308322DD7823004BB868 /* SDKAuthPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKAuthPresenter.m; sourceTree = "<group>"; };
+		3E91308422DD7823004BB868 /* SDKAuthPresenter+AuthDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDKAuthPresenter+AuthDelegate.h"; sourceTree = "<group>"; };
+		3E91308622DD7823004BB868 /* SDKInitPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKInitPresenter.m; sourceTree = "<group>"; };
+		3E91308722DD7823004BB868 /* SDKInitPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKInitPresenter.h; sourceTree = "<group>"; };
+		3E9130D022DD7866004BB868 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		3E9130D122DD7866004BB868 /* HorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalTableView.m; sourceTree = "<group>"; };
+		3E9130D222DD7866004BB868 /* ShrinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShrinkViewController.h; sourceTree = "<group>"; };
+		3E9130D322DD7866004BB868 /* CustomMeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMeetingViewController.m; sourceTree = "<group>"; };
+		3E9130D422DD7866004BB868 /* ThumbTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbTableViewCell.h; sourceTree = "<group>"; };
+		3E9130D522DD7866004BB868 /* LocalShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalShareViewController.h; sourceTree = "<group>"; };
+		3E9130D622DD7866004BB868 /* BottomPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomPanelView.h; sourceTree = "<group>"; };
+		3E9130D722DD7866004BB868 /* CustomMeetingViewController+MeetingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CustomMeetingViewController+MeetingDelegate.h"; sourceTree = "<group>"; };
+		3E9130D822DD7866004BB868 /* ThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbView.h; sourceTree = "<group>"; };
+		3E9130D922DD7866004BB868 /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		3E9130DA22DD7866004BB868 /* AnnoFloatBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnoFloatBarView.h; sourceTree = "<group>"; };
+		3E9130DB22DD7866004BB868 /* TopPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopPanelView.h; sourceTree = "<group>"; };
+		3E9130DC22DD7866004BB868 /* ThumbWallViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbWallViewCell.m; sourceTree = "<group>"; };
+		3E9130DD22DD7866004BB868 /* CustomRemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRemoteControl.m; sourceTree = "<group>"; };
+		3E9130DE22DD7866004BB868 /* WallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallViewController.h; sourceTree = "<group>"; };
+		3E9130DF22DD7866004BB868 /* RemoteShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteShareViewController.h; sourceTree = "<group>"; };
+		3E9130E022DD7866004BB868 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		3E9130E122DD7866004BB868 /* CustomMeetingViewController+MeetingDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CustomMeetingViewController+MeetingDelegate.m"; sourceTree = "<group>"; };
+		3E9130E222DD7866004BB868 /* BottomPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomPanelView.m; sourceTree = "<group>"; };
+		3E9130E322DD7866004BB868 /* LocalShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalShareViewController.m; sourceTree = "<group>"; };
+		3E9130E422DD7866004BB868 /* ThumbTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbTableViewCell.m; sourceTree = "<group>"; };
+		3E9130E522DD7866004BB868 /* CustomMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMeetingViewController.h; sourceTree = "<group>"; };
+		3E9130E622DD7866004BB868 /* ShrinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShrinkViewController.m; sourceTree = "<group>"; };
+		3E9130E722DD7866004BB868 /* HorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalTableView.h; sourceTree = "<group>"; };
+		3E9130E822DD7866004BB868 /* WallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallViewController.m; sourceTree = "<group>"; };
+		3E9130E922DD7866004BB868 /* CustomRemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRemoteControl.h; sourceTree = "<group>"; };
+		3E9130EA22DD7866004BB868 /* TopPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopPanelView.m; sourceTree = "<group>"; };
+		3E9130EB22DD7866004BB868 /* ThumbWallViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbWallViewCell.h; sourceTree = "<group>"; };
+		3E9130EC22DD7866004BB868 /* AnnoFloatBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnoFloatBarView.m; sourceTree = "<group>"; };
+		3E9130ED22DD7866004BB868 /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		3E9130EE22DD7866004BB868 /* ThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbView.m; sourceTree = "<group>"; };
+		3E9130EF22DD7866004BB868 /* RemoteShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteShareViewController.m; sourceTree = "<group>"; };
+		3E91310022DD7A6C004BB868 /* RNMobileRTC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNMobileRTC-Prefix.pch"; sourceTree = "<group>"; };
+		3E91313C22DD8345004BB868 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3E91313E22DD8371004BB868 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3E91313F22DD8425004BB868 /* MainViewController+MeetingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MainViewController+MeetingDelegate.h"; sourceTree = "<group>"; };
+		3E91314022DD8454004BB868 /* MainViewController+MeetingDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MainViewController+MeetingDelegate.m"; sourceTree = "<group>"; };
+		3E91314222DD8752004BB868 /* AppDelegateRTC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateRTC.h; sourceTree = "<group>"; };
+		3E91314322DD8769004BB868 /* AppDelegateRTC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegateRTC.m; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNMobileRTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMobileRTC.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNMobileRTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMobileRTC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,9 +182,252 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
+		3E91304922DD7823004BB868 /* SDKPresenters */ = {
+			isa = PBXGroup;
+			children = (
+				3E91304A22DD7823004BB868 /* other_features */,
+				3E91305322DD7823004BB868 /* how_to_use_inmeeting_function */,
+				3E91307022DD7823004BB868 /* how_to_start_join_meeting */,
+				3E91307C22DD7823004BB868 /* how_to_init_auth_sdk */,
+			);
+			path = SDKPresenters;
+			sourceTree = "<group>";
+		};
+		3E91304A22DD7823004BB868 /* other_features */ = {
+			isa = PBXGroup;
+			children = (
+				3E91304B22DD7823004BB868 /* schedule_meeting_for_login_user */,
+				3E91305022DD7823004BB868 /* how_to_settings */,
+			);
+			path = other_features;
+			sourceTree = "<group>";
+		};
+		3E91304B22DD7823004BB868 /* schedule_meeting_for_login_user */ = {
+			isa = PBXGroup;
+			children = (
+				3E91304C22DD7823004BB868 /* SDKScheduleMeetingPresenter.m */,
+				3E91304D22DD7823004BB868 /* SDKAuthPresenter+PremeetingDelegate.m */,
+				3E91304E22DD7823004BB868 /* SDKScheduleMeetingPresenter.h */,
+				3E91304F22DD7823004BB868 /* SDKAuthPresenter+PremeetingDelegate.h */,
+			);
+			path = schedule_meeting_for_login_user;
+			sourceTree = "<group>";
+		};
+		3E91305022DD7823004BB868 /* how_to_settings */ = {
+			isa = PBXGroup;
+			children = (
+				3E91305122DD7823004BB868 /* SDKMeetingSettingPresenter.m */,
+				3E91305222DD7823004BB868 /* SDKMeetingSettingPresenter.h */,
+			);
+			path = how_to_settings;
+			sourceTree = "<group>";
+		};
+		3E91305322DD7823004BB868 /* how_to_use_inmeeting_function */ = {
+			isa = PBXGroup;
+			children = (
+				3E91305422DD7823004BB868 /* meeting_callback */,
+				3E91306322DD7823004BB868 /* how_to_use_customized_inmeeting_ui */,
+			);
+			path = how_to_use_inmeeting_function;
+			sourceTree = "<group>";
+		};
+		3E91305422DD7823004BB868 /* meeting_callback */ = {
+			isa = PBXGroup;
+			children = (
+				3E91305522DD7823004BB868 /* SDKStartJoinMeetingPresenter+VideoServiceDelegate.m */,
+				3E91305622DD7823004BB868 /* SDKStartJoinMeetingPresenter+ShareServiceDelegate.h */,
+				3E91305722DD7823004BB868 /* SDKStartJoinMeetingPresenter+CustomizedUIMeetingDelegate.h */,
+				3E91305822DD7823004BB868 /* SDKStartJoinMeetingPresenter+WebinarServiceDelegate.m */,
+				3E91305922DD7823004BB868 /* SDKStartJoinMeetingPresenter+UserServiceDelegate.h */,
+				3E91305A22DD7823004BB868 /* SDKStartJoinMeetingPresenter+MeetingServiceDelegate.m */,
+				3E91305B22DD7823004BB868 /* SDKStartJoinMeetingPresenter+AudioServiceDelegate.m */,
+				3E91305C22DD7823004BB868 /* SDKStartJoinMeetingPresenter+VideoServiceDelegate.h */,
+				3E91305D22DD7823004BB868 /* SDKStartJoinMeetingPresenter+CustomizedUIMeetingDelegate.m */,
+				3E91305E22DD7823004BB868 /* SDKStartJoinMeetingPresenter+ShareServiceDelegate.m */,
+				3E91305F22DD7823004BB868 /* SDKStartJoinMeetingPresenter+AudioServiceDelegate.h */,
+				3E91306022DD7823004BB868 /* SDKStartJoinMeetingPresenter+MeetingServiceDelegate.h */,
+				3E91306122DD7823004BB868 /* SDKStartJoinMeetingPresenter+UserServiceDelegate.m */,
+				3E91306222DD7823004BB868 /* SDKStartJoinMeetingPresenter+WebinarServiceDelegate.h */,
+			);
+			path = meeting_callback;
+			sourceTree = "<group>";
+		};
+		3E91306322DD7823004BB868 /* how_to_use_customized_inmeeting_ui */ = {
+			isa = PBXGroup;
+			children = (
+				3E91306422DD7823004BB868 /* how_to_use_customized_video */,
+				3E91306722DD7823004BB868 /* how_to_use_inmeeting_actions */,
+				3E91306A22DD7823004BB868 /* how_to_use_customized_share */,
+				3E91306D22DD7823004BB868 /* how_to_use_customized_audio */,
+			);
+			path = how_to_use_customized_inmeeting_ui;
+			sourceTree = "<group>";
+		};
+		3E91306422DD7823004BB868 /* how_to_use_customized_video */ = {
+			isa = PBXGroup;
+			children = (
+				3E91306522DD7823004BB868 /* SDKVideoPresenter.m */,
+				3E91306622DD7823004BB868 /* SDKVideoPresenter.h */,
+			);
+			path = how_to_use_customized_video;
+			sourceTree = "<group>";
+		};
+		3E91306722DD7823004BB868 /* how_to_use_inmeeting_actions */ = {
+			isa = PBXGroup;
+			children = (
+				3E91306822DD7823004BB868 /* SDKActionPresenter.h */,
+				3E91306922DD7823004BB868 /* SDKActionPresenter.m */,
+			);
+			path = how_to_use_inmeeting_actions;
+			sourceTree = "<group>";
+		};
+		3E91306A22DD7823004BB868 /* how_to_use_customized_share */ = {
+			isa = PBXGroup;
+			children = (
+				3E91306B22DD7823004BB868 /* SDKSharePresenter.h */,
+				3E91306C22DD7823004BB868 /* SDKSharePresenter.m */,
+			);
+			path = how_to_use_customized_share;
+			sourceTree = "<group>";
+		};
+		3E91306D22DD7823004BB868 /* how_to_use_customized_audio */ = {
+			isa = PBXGroup;
+			children = (
+				3E91306E22DD7823004BB868 /* SDKAudioPresenter.h */,
+				3E91306F22DD7823004BB868 /* SDKAudioPresenter.m */,
+			);
+			path = how_to_use_customized_audio;
+			sourceTree = "<group>";
+		};
+		3E91307022DD7823004BB868 /* how_to_start_join_meeting */ = {
+			isa = PBXGroup;
+			children = (
+				3E91307122DD7823004BB868 /* SDKStartJoinMeetingPresenter.m */,
+				3E91307222DD7823004BB868 /* start_with_rest_api_user */,
+				3E91307522DD7823004BB868 /* join_meeting */,
+				3E91307822DD7823004BB868 /* SDKStartJoinMeetingPresenter.h */,
+				3E91307922DD7823004BB868 /* start_with_login_user */,
+			);
+			path = how_to_start_join_meeting;
+			sourceTree = "<group>";
+		};
+		3E91307222DD7823004BB868 /* start_with_rest_api_user */ = {
+			isa = PBXGroup;
+			children = (
+				3E91307322DD7823004BB868 /* SDKStartJoinMeetingPresenter+RestApiWithoutLoginUser.h */,
+				3E91307422DD7823004BB868 /* SDKStartJoinMeetingPresenter+RestApiWithoutLoginUser.m */,
+			);
+			path = start_with_rest_api_user;
+			sourceTree = "<group>";
+		};
+		3E91307522DD7823004BB868 /* join_meeting */ = {
+			isa = PBXGroup;
+			children = (
+				3E91307622DD7823004BB868 /* SDKStartJoinMeetingPresenter+JoinMeetingOnly.h */,
+				3E91307722DD7823004BB868 /* SDKStartJoinMeetingPresenter+JoinMeetingOnly.m */,
+			);
+			path = join_meeting;
+			sourceTree = "<group>";
+		};
+		3E91307922DD7823004BB868 /* start_with_login_user */ = {
+			isa = PBXGroup;
+			children = (
+				3E91307A22DD7823004BB868 /* SDKStartJoinMeetingPresenter+LoginUser.h */,
+				3E91307B22DD7823004BB868 /* SDKStartJoinMeetingPresenter+LoginUser.m */,
+			);
+			path = start_with_login_user;
+			sourceTree = "<group>";
+		};
+		3E91307C22DD7823004BB868 /* how_to_init_auth_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3E91307D22DD7823004BB868 /* how_to_login_sdk */,
+				3E91308022DD7823004BB868 /* how_to_auth_sdk */,
+				3E91308522DD7823004BB868 /* how_to_init_sdk */,
+			);
+			path = how_to_init_auth_sdk;
+			sourceTree = "<group>";
+		};
+		3E91307D22DD7823004BB868 /* how_to_login_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3E91307E22DD7823004BB868 /* SDKAuthPresenter+Login.h */,
+				3E91307F22DD7823004BB868 /* SDKAuthPresenter+Login.m */,
+			);
+			path = how_to_login_sdk;
+			sourceTree = "<group>";
+		};
+		3E91308022DD7823004BB868 /* how_to_auth_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3E91308122DD7823004BB868 /* SDKAuthPresenter.h */,
+				3E91308222DD7823004BB868 /* SDKAuthPresenter+AuthDelegate.m */,
+				3E91308322DD7823004BB868 /* SDKAuthPresenter.m */,
+				3E91308422DD7823004BB868 /* SDKAuthPresenter+AuthDelegate.h */,
+			);
+			path = how_to_auth_sdk;
+			sourceTree = "<group>";
+		};
+		3E91308522DD7823004BB868 /* how_to_init_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3E91308622DD7823004BB868 /* SDKInitPresenter.m */,
+				3E91308722DD7823004BB868 /* SDKInitPresenter.h */,
+			);
+			path = how_to_init_sdk;
+			sourceTree = "<group>";
+		};
+		3E9130CF22DD7866004BB868 /* CustomMeeting */ = {
+			isa = PBXGroup;
+			children = (
+				3E9130D022DD7866004BB868 /* VideoViewController.h */,
+				3E9130D122DD7866004BB868 /* HorizontalTableView.m */,
+				3E9130D222DD7866004BB868 /* ShrinkViewController.h */,
+				3E9130D322DD7866004BB868 /* CustomMeetingViewController.m */,
+				3E9130D422DD7866004BB868 /* ThumbTableViewCell.h */,
+				3E9130D522DD7866004BB868 /* LocalShareViewController.h */,
+				3E9130D622DD7866004BB868 /* BottomPanelView.h */,
+				3E9130D722DD7866004BB868 /* CustomMeetingViewController+MeetingDelegate.h */,
+				3E9130D822DD7866004BB868 /* ThumbView.h */,
+				3E9130D922DD7866004BB868 /* GalleryViewController.m */,
+				3E9130DA22DD7866004BB868 /* AnnoFloatBarView.h */,
+				3E9130DB22DD7866004BB868 /* TopPanelView.h */,
+				3E9130DC22DD7866004BB868 /* ThumbWallViewCell.m */,
+				3E9130DD22DD7866004BB868 /* CustomRemoteControl.m */,
+				3E9130DE22DD7866004BB868 /* WallViewController.h */,
+				3E9130DF22DD7866004BB868 /* RemoteShareViewController.h */,
+				3E9130E022DD7866004BB868 /* VideoViewController.m */,
+				3E9130E122DD7866004BB868 /* CustomMeetingViewController+MeetingDelegate.m */,
+				3E9130E222DD7866004BB868 /* BottomPanelView.m */,
+				3E9130E322DD7866004BB868 /* LocalShareViewController.m */,
+				3E9130E422DD7866004BB868 /* ThumbTableViewCell.m */,
+				3E9130E522DD7866004BB868 /* CustomMeetingViewController.h */,
+				3E9130E622DD7866004BB868 /* ShrinkViewController.m */,
+				3E9130E722DD7866004BB868 /* HorizontalTableView.h */,
+				3E9130E822DD7866004BB868 /* WallViewController.m */,
+				3E9130E922DD7866004BB868 /* CustomRemoteControl.h */,
+				3E9130EA22DD7866004BB868 /* TopPanelView.m */,
+				3E9130EB22DD7866004BB868 /* ThumbWallViewCell.h */,
+				3E9130EC22DD7866004BB868 /* AnnoFloatBarView.m */,
+				3E9130ED22DD7866004BB868 /* GalleryViewController.h */,
+				3E9130EE22DD7866004BB868 /* ThumbView.m */,
+				3E9130EF22DD7866004BB868 /* RemoteShareViewController.m */,
+			);
+			path = CustomMeeting;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				3E91314322DD8769004BB868 /* AppDelegateRTC.m */,
+				3E91314222DD8752004BB868 /* AppDelegateRTC.h */,
+				3E91314022DD8454004BB868 /* MainViewController+MeetingDelegate.m */,
+				3E91313F22DD8425004BB868 /* MainViewController+MeetingDelegate.h */,
+				3E91313E22DD8371004BB868 /* MainViewController.h */,
+				3E91313C22DD8345004BB868 /* MainViewController.m */,
+				3E91310022DD7A6C004BB868 /* RNMobileRTC-Prefix.pch */,
+				3E9130CF22DD7866004BB868 /* CustomMeeting */,
+				3E91304922DD7823004BB868 /* SDKPresenters */,
 				2770A65320120A45006EF37E /* Frameworks */,
 				B3E7B5881CC2AC0600A0062D /* RNMobileRTC.h */,
 				B3E7B5891CC2AC0600A0062D /* RNMobileRTC.m */,
@@ -108,6 +475,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -135,7 +503,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E91308E22DD7824004BB868 /* SDKStartJoinMeetingPresenter+AudioServiceDelegate.m in Sources */,
+				3E9130FE22DD7866004BB868 /* ThumbView.m in Sources */,
+				3E91309022DD7824004BB868 /* SDKStartJoinMeetingPresenter+ShareServiceDelegate.m in Sources */,
+				3E91313D22DD8345004BB868 /* MainViewController.m in Sources */,
+				3E91309822DD7824004BB868 /* SDKStartJoinMeetingPresenter+JoinMeetingOnly.m in Sources */,
+				3E9130F122DD7866004BB868 /* CustomMeetingViewController.m in Sources */,
+				3E91308A22DD7824004BB868 /* SDKMeetingSettingPresenter.m in Sources */,
+				3E91309222DD7824004BB868 /* SDKVideoPresenter.m in Sources */,
+				3E9130F022DD7866004BB868 /* HorizontalTableView.m in Sources */,
+				3E91308F22DD7824004BB868 /* SDKStartJoinMeetingPresenter+CustomizedUIMeetingDelegate.m in Sources */,
+				3E9130FB22DD7866004BB868 /* WallViewController.m in Sources */,
+				3E9130F922DD7866004BB868 /* ThumbTableViewCell.m in Sources */,
+				3E91308B22DD7824004BB868 /* SDKStartJoinMeetingPresenter+VideoServiceDelegate.m in Sources */,
+				3E9130FC22DD7866004BB868 /* TopPanelView.m in Sources */,
+				3E91308C22DD7824004BB868 /* SDKStartJoinMeetingPresenter+WebinarServiceDelegate.m in Sources */,
+				3E91309722DD7824004BB868 /* SDKStartJoinMeetingPresenter+RestApiWithoutLoginUser.m in Sources */,
+				3E91308822DD7824004BB868 /* SDKScheduleMeetingPresenter.m in Sources */,
+				3E9130FA22DD7866004BB868 /* ShrinkViewController.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNMobileRTC.m in Sources */,
+				3E91309A22DD7824004BB868 /* SDKAuthPresenter+Login.m in Sources */,
+				3E91314422DD8769004BB868 /* AppDelegateRTC.m in Sources */,
+				3E91308922DD7824004BB868 /* SDKAuthPresenter+PremeetingDelegate.m in Sources */,
+				3E91309622DD7824004BB868 /* SDKStartJoinMeetingPresenter.m in Sources */,
+				3E9130F622DD7866004BB868 /* CustomMeetingViewController+MeetingDelegate.m in Sources */,
+				3E9130F722DD7866004BB868 /* BottomPanelView.m in Sources */,
+				3E9130F822DD7866004BB868 /* LocalShareViewController.m in Sources */,
+				3E9130FD22DD7866004BB868 /* AnnoFloatBarView.m in Sources */,
+				3E91309122DD7824004BB868 /* SDKStartJoinMeetingPresenter+UserServiceDelegate.m in Sources */,
+				3E9130F522DD7866004BB868 /* VideoViewController.m in Sources */,
+				3E91309D22DD7824004BB868 /* SDKInitPresenter.m in Sources */,
+				3E91309522DD7824004BB868 /* SDKAudioPresenter.m in Sources */,
+				3E9130FF22DD7866004BB868 /* RemoteShareViewController.m in Sources */,
+				3E9130F222DD7866004BB868 /* GalleryViewController.m in Sources */,
+				3E9130F422DD7866004BB868 /* CustomRemoteControl.m in Sources */,
+				3E91309422DD7824004BB868 /* SDKSharePresenter.m in Sources */,
+				3E91309922DD7824004BB868 /* SDKStartJoinMeetingPresenter+LoginUser.m in Sources */,
+				3E91314122DD8454004BB868 /* MainViewController+MeetingDelegate.m in Sources */,
+				3E91308D22DD7824004BB868 /* SDKStartJoinMeetingPresenter+MeetingServiceDelegate.m in Sources */,
+				3E91309322DD7824004BB868 /* SDKActionPresenter.m in Sources */,
+				3E9130F322DD7866004BB868 /* ThumbWallViewCell.m in Sources */,
+				3E91309B22DD7824004BB868 /* SDKAuthPresenter+AuthDelegate.m in Sources */,
+				3E91309C22DD7824004BB868 /* SDKAuthPresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +585,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -213,7 +622,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -226,6 +635,7 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../lib/**",
 					"$(SRCROOT)/../../../ios/lib/**",
@@ -233,15 +643,18 @@
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../../ios/Pods/**",
 				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RNMobileRTC-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../../ios/Pods/**",
-					"$(SRCROOT)/../lib/**",
+					"$(SRCROOT)/../../../React",
+					"$(SRCROOT)/../../react-native/React",
+					"$(SRCROOT)/../../../ios/Pods",
+					"$(SRCROOT)/../lib",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNMobileRTC;
 				SKIP_INSTALL = YES;
@@ -251,6 +664,7 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../lib/**",
 					"$(SRCROOT)/../../../ios/lib/**",
@@ -258,15 +672,18 @@
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../../ios/Pods/**",
 				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RNMobileRTC-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../../ios/Pods/**",
-					"$(SRCROOT)/../lib/**",
+					"$(SRCROOT)/../../../React",
+					"$(SRCROOT)/../../react-native/React",
+					"$(SRCROOT)/../../../ios/Pods",
+					"$(SRCROOT)/../lib",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNMobileRTC;
 				SKIP_INSTALL = YES;
