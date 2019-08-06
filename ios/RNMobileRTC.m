@@ -323,11 +323,6 @@ RCT_EXPORT_METHOD(joinMeeting:(NSDictionary *) options resolver:(RCTPromiseResol
     NSLog(@"There does not exist ongoing share");
 }
 
-- (void)onJBHWaitingWithCmd:(JBHCmd)cmd
-{
-
-}
-
 - (void)onClickedInviteButton:(UIViewController*)parentVC
 {
 
