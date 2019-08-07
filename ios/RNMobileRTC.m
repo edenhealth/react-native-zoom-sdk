@@ -338,5 +338,10 @@ RCT_EXPORT_METHOD(joinMeeting:(NSDictionary *) options resolver:(RCTPromiseResol
     NSLog(@"onDialOutStatusChanged: %zd", status);
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+    return YES;
+}
+
 
 @end
