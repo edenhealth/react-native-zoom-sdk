@@ -225,31 +225,6 @@ RCT_EXPORT_METHOD(joinMeeting:(NSDictionary *) options resolver:(RCTPromiseResol
     NSLog(@"onMobileRTCLogoutReturn");
 }
 
-#pragma mark - Meeting Service Delegate
-
-- (void)onMeetingReturn:(MobileRTCMeetError)error internalError:(NSInteger)internalError
-{
-    NSLog(@"onMeetingReturn:%d, internalError:%zd", error, internalError);
-    if (error != MobileRTCMeetError_Success)
-    {
-        if (!_meetingRejecter) {
-            return;
-        }
-        _meetingRejecter([@(error) stringValue], @"error", nil);
-    }
-    else
-    {
-        if (!_meetingResolver) {
-            return;
-        }
-        _meetingResolver(nil);
-    }
-
-    _meetingResolver = nil;
-    _meetingRejecter = nil;
-    return;
-}
-
 - (void)onMeetingError:(NSInteger)error message:(NSString*)message
 {
     NSLog(@"onMeetingError:%zd, message:%@", error, message);
@@ -268,15 +243,17 @@ RCT_EXPORT_METHOD(joinMeeting:(NSDictionary *) options resolver:(RCTPromiseResol
     MobileRTCMeetingService *ms = [[MobileRTC sharedRTC] getMeetingService];
     BOOL inAppShare = [ms isDirectAppShareMeeting] && (state == MobileRTCMeetingState_InMeeting);
 
-    if (state == MobileRTCMeetingState_Idle)
-    {
-        // TODO:
+    if (state == MobileRTCMeetingState_InMeeting || state == MobileRTCMeetingState_Idle) {
+        if (!_meetingResolver) {
+            return;
+        }
+
+        _meetingResolver(nil);
+
+        _meetingResolver = nil;
+        _meetingRejecter = nil;
     }
 
-    if (state != MobileRTCMeetingState_InMeeting)
-    {
-        // TODO:
-    }
 }
 
 - (void)onMeetingReady
