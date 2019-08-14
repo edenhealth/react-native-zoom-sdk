@@ -258,26 +258,34 @@ public class RNMobileRTCModule extends ReactContextBaseJavaModule implements Mee
 
   @Override
 	public void onMeetingStatusChanged(MeetingStatus meetingStatus, int errorCode, int internalErrorCode) {
-    if (mPromise == null) {
-      return;
-    }
-    
-		if (meetingStatus == MeetingStatus.MEETING_STATUS_FAILED &&
-			errorCode != MeetingError.MEETING_ERROR_SUCCESS) {
-			mPromise.reject("" + errorCode);
+		if (mPromise == null) {
+			return;
 		}
-		
-		if (mbPendingStartMeeting && meetingStatus == MeetingStatus.MEETING_STATUS_FAILED) {
+		boolean sentStatus = false;
+
+		if (meetingStatus == MeetingStatus.MEETING_STATUS_FAILED && errorCode != MeetingError.MEETING_ERROR_SUCCESS) {
+			sentStatus = true;
+			mPromise.reject("" + errorCode);
+		} else if (mbPendingStartMeeting && meetingStatus == MeetingStatus.MEETING_STATUS_FAILED) {
 			mbPendingStartMeeting = false;
+			sentStatus = true;
 			mPromise.reject("" + errorCode);
-		}
-		
-		if (meetingStatus == MeetingStatus.MEETING_STATUS_INMEETING) {
+		} else if (meetingStatus == MeetingStatus.MEETING_STATUS_INMEETING || meetingStatus == MeetingStatus.MEETING_STATUS_WAITINGFORHOST) {
+			sentStatus = true;
 			mPromise.resolve("Success!");
+		} else if (meetingStatus == MeetingStatus.MEETING_STATUS_DISCONNECTING) {
+			sentStatus = true;
+			mPromise.reject("Left meeting before starting.");
+		} else if (meetingStatus == MeetingStatus.MEETING_STATUS_IDLE) {
+			sentStatus = true;
+			mPromise.reject("No meeting.");
+		} else if (meetingStatus == MeetingStatus.MEETING_STATUS_UNKNOWN) {
+			sentStatus = true;
+			mPromise.reject("Unknown meeting status.");
 		}
 
-    mPromise = null;
-
-		return;
+		if (sentStatus) {
+			mPromise = null;
+		}
   }
 }
