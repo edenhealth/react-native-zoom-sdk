@@ -24,6 +24,7 @@ import us.zoom.sdk.MeetingError;
 import us.zoom.sdk.MeetingStatus;
 import us.zoom.sdk.MeetingOptions;
 import us.zoom.sdk.MeetingService;
+import us.zoom.sdk.MeetingSettingsHelper;
 import us.zoom.sdk.MeetingServiceListener;
 import us.zoom.sdk.MeetingStatus;
 import us.zoom.sdk.ZoomError;
@@ -66,6 +67,7 @@ public class RNMobileRTCModule extends ReactContextBaseJavaModule implements Mee
 
 	private void initSDK(String sdkKey, String sdkSecret, String sdkDomain, Promise promise) {
 		ZoomSDK zoomSDK = ZoomSDK.getInstance();
+
 		mPromise = promise;
 
 		if (!zoomSDK.isInitialized()) {
@@ -97,10 +99,15 @@ public class RNMobileRTCModule extends ReactContextBaseJavaModule implements Mee
 
 		ZoomSDK zoomSDK = ZoomSDK.getInstance();
 
+
 		if(!zoomSDK.isInitialized()) {
 			promise.reject(E_SDK_NOT_INITIALIZED, "ZoomSDK has not been initialized successfully");
       return;
 		}
+
+		MeetingSettingsHelper msHelper = zoomSDK.getMeetingSettingsHelper();
+		msHelper.enableForceAutoStartMyVideoWhenJoinMeeting(true);
+		msHelper.disableShowMeetingNotification(true);
 
 		MeetingService meetingService = zoomSDK.getMeetingService();
 
