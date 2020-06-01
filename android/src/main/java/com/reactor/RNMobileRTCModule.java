@@ -252,6 +252,25 @@ public class RNMobileRTCModule extends ReactContextBaseJavaModule implements Mee
 		);
   }
 
+  private void unregisterListener() {
+    ZoomSDK zoomSDK = ZoomSDK.getInstance();
+    if(zoomSDK.isInitialized()) {
+      MeetingService meetingService = zoomSDK.getMeetingService();
+      meetingService.removeListener(this);
+    }
+  }
+
+  @Override
+  public void onCatalystInstanceDestroy() {
+    unregisterListener();
+  }
+
+  @Override
+  public void onZoomAuthIdentityExpired() {
+    unregisterListener();
+  }
+
+
   // Listeners
   @Override
   public void onZoomSDKInitializeResult(int errorCode, int internalErrorCode) {
