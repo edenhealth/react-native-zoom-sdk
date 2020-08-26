@@ -31,7 +31,13 @@ RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(initialize:(NSString *)key secret:(NSString *)secret domain:(NSString *) domain resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
 {
-    [[MobileRTC sharedRTC] setMobileRTCDomain:domain];
+    MobileRTCSDKInitContext *context = [[MobileRTCSDKInitContext alloc] init];
+    context.domain = domain;
+    context.enableLog = YES;
+    context.locale = MobileRTC_ZoomLocale_Default;
+
+
+
     clientKey = key;
     clientSecret = secret;
     _initResolver = resolve;
@@ -47,7 +53,6 @@ RCT_EXPORT_METHOD(startMeeting:(NSDictionary *) options resolver:(RCTPromiseReso
 
         NSDictionary *paramDict = @{
                                     kMeetingParam_UserID:options[@"userId"],
-                                    kMeetingParam_UserToken:options[@"userToken"],
                                     kMeetingParam_UserType:options[@"userType"],
                                     kMeetingParam_Username:options[@"userName"],
                                     kMeetingParam_MeetingNumber:options[@"meetNumber"],

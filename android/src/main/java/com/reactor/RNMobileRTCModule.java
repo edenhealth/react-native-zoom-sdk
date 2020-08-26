@@ -20,6 +20,8 @@ import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.common.MapBuilder;
 import us.zoom.sdk.JoinMeetingOptions;
 import us.zoom.sdk.StartMeetingOptions;
+import us.zoom.sdk.StartMeetingParamsWithoutLogin;
+import us.zoom.sdk.JoinMeetingParams;
 import us.zoom.sdk.MeetingError;
 import us.zoom.sdk.MeetingStatus;
 import us.zoom.sdk.MeetingOptions;
@@ -114,11 +116,15 @@ public class RNMobileRTCModule extends ReactContextBaseJavaModule implements Mee
 		mPromise = promise;
 
 		JoinMeetingOptions opts = new JoinMeetingOptions();
+		JoinMeetingParams params = new JoinMeetingParams();
+		params.displayName = userName;
+		params.meetingNo = meetingNo;
+		params.password = meetingPassword;
 		opts.no_dial_in_via_phone = true;
 		opts.no_disconnect_audio = true;
 		opts.no_driving_mode = true;
 
-		int ret = meetingService.joinMeeting(this.getCurrentActivity(), meetingNo, userName, meetingPassword, opts);
+		int ret = meetingService.joinMeetingWithParams(this.getCurrentActivity(), params, opts);
 	}
 
   @ReactMethod
@@ -181,7 +187,12 @@ public class RNMobileRTCModule extends ReactContextBaseJavaModule implements Mee
 		mPromise = promise;
 
 		StartMeetingOptions opts = new StartMeetingOptions();
-		int ret = meetingService.startMeeting(this.getCurrentActivity(), userName, userToken, userType, meetingNo, userName, opts);
+		StartMeetingParamsWithoutLogin params = new StartMeetingParamsWithoutLogin();
+		params.displayName = userName;
+		params.meetingNo = meetingNo;
+		params.userId = userName;
+		params.userType = userType;
+		int ret = meetingService.startMeetingWithParams(this.getCurrentActivity(), params, opts);
 	}
 
 	@Override
